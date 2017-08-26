@@ -13,6 +13,7 @@
 		32EA83421F51D2DC00852FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EA83401F51D2DC00852FF1 /* Main.storyboard */; };
 		32EA83441F51D2DC00852FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EA83431F51D2DC00852FF1 /* Assets.xcassets */; };
 		32EA83471F51D2DC00852FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EA83451F51D2DC00852FF1 /* LaunchScreen.storyboard */; };
+		32EA83501F51EAEA00852FF1 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EA834F1F51EAEA00852FF1 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		32EA83431F51D2DC00852FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32EA83461F51D2DC00852FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32EA83481F51D2DC00852FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EA834E1F51EAEA00852FF1 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		32EA834F1F51EAEA00852FF1 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				32EA83451F51D2DC00852FF1 /* LaunchScreen.storyboard */,
 				32EA83481F51D2DC00852FF1 /* Info.plist */,
 				32EA83371F51D2DC00852FF1 /* Supporting Files */,
+				32EA834E1F51EAEA00852FF1 /* TestClass.h */,
+				32EA834F1F51EAEA00852FF1 /* TestClass.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32EA83501F51EAEA00852FF1 /* TestClass.m in Sources */,
 				32EA833F1F51D2DC00852FF1 /* ViewController.m in Sources */,
 				32EA833C1F51D2DC00852FF1 /* AppDelegate.m in Sources */,
 				32EA83391F51D2DC00852FF1 /* main.m in Sources */,
